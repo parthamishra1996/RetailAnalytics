@@ -1,0 +1,37 @@
+Tasks
+1. Customer history dictionary
+2. Item Tree
+3. Read about stemming: https://en.wikipedia.org/wiki/Stemming
+4. Check out other references.
+5. Make a fact table.
+6. Outlier elimination
+SubTasks
+
+1. Create a tree representation for visualization.
+2. Relation btw product variety in a branch(SKU) vs participation of branch in baskets. (Check skewness)
+3. Clustering: K-means and variations
+			   Rank order clustering?
+			   Direct clustering and other m/c part clustering algos?
+4. Should PCA be used over binary data
+5. Number of clusters evaluation using SSE. Any other method possible?
+
+Aim: Basket per visit and clustering
+
+
+Imp reference: https://www.kaggle.com/dohuan/retailrocket-data-train-test-with-lightfm/data
+Code in R: https://rpubs.com/Surabhi_353/307430
+Plotting elbow curve: https://www.datasciencecentral.com/profiles/blogs/python-implementing-a-k-means-algorithm-with-sklearn
+Use of Silhoutte coeff: https://stackoverflow.com/questions/19197715/scikit-learn-k-means-elbow-criterion
+
+Data Info:
+1. Online retail
+2. Every customer has an ID, whnever he views, adds to car or purchases an item he creates an event.
+3. This item has several properties and values (like which category id, price, etc. which changes with time)
+4. A category tree is available.
+
+
+Future work
+1. Validate method: Using more data on RFID and beacons and data from other retails
+2. Relation between customer visit segment vs selling gap(products in basket and products actually purchased).
+3. A midway between segment per single visit and using entire history: some X continuous visits.
+4. Technical contribution: Use association rules instead of clustering
