@@ -35,3 +35,7 @@ Future work
 2. Relation between customer visit segment vs selling gap(products in basket and products actually purchased).
 3. A midway between segment per single visit and using entire history: some X continuous visits.
 4. Technical contribution: Use association rules instead of clustering
+
+Ref:
+1. Cluster Evaluation/Validity: http://www.ims.uni-stuttgart.de/institut/mitarbeiter/schulte/theses/phd/algorithm.pdf
+2. Cluster Validity: https://web.itu.edu.tr/~sgunduz/courses/verimaden/paper/validity_survey.pdf
