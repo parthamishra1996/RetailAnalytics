@@ -39,3 +39,6 @@ Future work
 Ref:
 1. Cluster Evaluation/Validity: http://www.ims.uni-stuttgart.de/institut/mitarbeiter/schulte/theses/phd/algorithm.pdf
 2. Cluster Validity: https://web.itu.edu.tr/~sgunduz/courses/verimaden/paper/validity_survey.pdf
+3. Fuzzy cluster validity: http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.103.6731&rep=rep1&type=pdf
+4. Good Advice and references: https://www.researchgate.net/post/Does_anybody_know_any_clustering_algo_that_work_good_on_binary_valued_data_and_can_give_balanced_elements_cluster
+5. Spectral Re-ordering Algorithm: https://www.pnas.org/content/suppl/2004/08/20/0403743101.DC1/03743SuppText.pdf
